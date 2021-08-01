@@ -1,0 +1,35 @@
+/* Update Bootstrap default colors/styles */
+.bg-dark {
+    background-color: #292929!important;
+}
+
+.bg-light {
+    background-color: #D6D6D6!important;
+}
+
+.text-white {
+    color: #D6D6D6!important;
+}
+
+.text-dark {
+    color: #292929!important;
+}
+
+.text-primary {
+    color: #F5A9A9!important;
+}
+
+.text-secondary {
+    color: #10BCBC!important;
+}
+
+.link-primary {
+    color: #D6D6D6!important;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.link-primary:hover {
+    text-decoration: underline #10BCBC;
+}
+
