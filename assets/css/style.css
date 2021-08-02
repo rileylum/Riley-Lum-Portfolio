@@ -44,3 +44,24 @@
     text-decoration: underline #10BCBC;
 }
 
+.card-title {
+    text-shadow: 1px 1px white;
+}
+
+
+
+#email:hover span {
+    display:none;
+}
+
+#email:hover::after {
+    content: 'rileylum@adam.com.au';
+}
+
+#phone-no:hover span {
+    display:none;
+}
+
+#phone-no:hover::after {
+    content: '0434 810 436';
+}
