@@ -1,6 +1,6 @@
-#Personal Portfolio
+# Personal Portfolio
 
-##Description
+## Description
 
 A website to showcase my personal projects and my contact information. 
 
@@ -10,7 +10,7 @@ The website can be accessed here: https://rileylum.github.io/Riley-Lum-Portfolio
 
 ![The website has a header section with navigation links and a list of my skills, a projects section showcasing a few of my projects and a contact section with my contact details](./assets/img/portfolio-screengrab.png)
 
-##Credits
+## Credits
 
 I used:
 - Bootstrap for the styling, which can be found here: https://getbootstrap.com/
