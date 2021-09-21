@@ -1,67 +1,71 @@
 :root {
-    --primary: #F5A9A9;
-    --secondary: #10BCBC;
+  --primary: #f5a9a9;
+  --secondary: #10bcbc;
 }
 
 /* Update Bootstrap default colors/styles */
 .bg-dark {
-    background-color: #292929!important;
+  background-color: #292929 !important;
 }
 
 .bg-light {
-    background-color: #D6D6D6!important;
+  background-color: #d6d6d6 !important;
 }
 
 .text-white {
-    color: #D6D6D6!important;
+  color: #d6d6d6 !important;
 }
 
 .text-dark {
-    color: #292929!important;
+  color: #292929 !important;
 }
 
 .text-primary {
-    color: var(--primary)!important;
+  color: var(--primary) !important;
 }
 
 .text-secondary {
-    color: var(--secondary)!important;
+  color: var(--secondary) !important;
 }
 
 .link-dark {
-    color: #D6D6D6!important;
-    text-decoration: none;
-    font-size: 1.5rem;
+  color: #d6d6d6 !important;
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 
 .link-light {
-    color: #292929!important;
-    text-decoration: none;
-    font-size: 1.5rem;
+  color: #292929 !important;
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 
-.link-dark:hover, .link-light:hover {
-    text-decoration: underline #10BCBC;
+.link-dark:hover,
+.link-light:hover {
+  text-decoration: underline #10bcbc;
 }
 
-.card-title {
+/* .card-title {
     text-shadow: 1px 1px white;
+} */
+
+.card-img-top {
+  height: 50%;
+  object-fit: cover;
 }
-
-
 
 #email:hover span {
-    display:none;
+  display: none;
 }
 
 #email:hover::after {
-    content: 'rileylum@adam.com.au';
+  content: "rileylum@adam.com.au";
 }
 
 #phone-no:hover span {
-    display:none;
+  display: none;
 }
 
 #phone-no:hover::after {
-    content: '0434 810 436';
+  content: "0434 810 436";
 }
